@@ -1,0 +1,31 @@
+
+# Java / Spring Boot
+target/
+*.class
+*.log
+
+# React / Node.js
+node_modules/
+dist/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Database backups
+*.dump
+*.sql.gz
